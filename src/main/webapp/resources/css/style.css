@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=montserrat');
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: coral;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	color: dark;
+	letter-spacing: -0.2px;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: black;
+}
+
+li {
+	margin-bottom: 0.75rem;
+	line-height: 1rem;
+}
+
+.aw-image {
+	height: 100vh;
+	background-image: url("../img/port.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.aw-content {
+	margin-top: auto;
+	padding: 1rem;
+	margin-bottom: auto;
+}
+span{
+	color:blue;
+}
